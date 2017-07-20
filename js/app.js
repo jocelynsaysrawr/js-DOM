@@ -31,7 +31,10 @@ alias3.innerHTML = "Concatenation";
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
+var divElem = document.getElementsByClassName("profile");
+console.log(divElem);
 
+divElem[0].innerHTML = "Make the rules, then break them cause you are the best";
 
 /*5. Bruce Lee
 
