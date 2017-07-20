@@ -40,12 +40,19 @@ divElem[0].innerHTML = "Make the rules, then break them cause you are the best";
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
+var divElem = document.getElementsByClassName("profile");
+console.log(divElem);
 
+divElem[1].innerHTML = "A wise man can learn more from a foolish question than a fool can learn from a wise answer.";
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
+var findAlias = document.getElementsByClassName("alias");
+console.log(findAlias);
+
+findAlias[2].innerHTML = "Hitman: Jules Winnfield";
 
 
 /*7. Peter Griffin
